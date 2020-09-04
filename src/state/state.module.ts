@@ -6,7 +6,7 @@ import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsModule } from '@ngxs/store';
 
 import { TodosState } from '@store/todos.state';
-import { environment } from '@envs/environment.prod';
+import { environment } from '@envs/environment';
 @NgModule({
   declarations: [],
   imports: [
